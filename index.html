@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naan Mudhalvan</title>
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 56%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(22, 12, 114);
+}
+
+section {
+    padding: 7rem 9%;
+    margin-top: 7rem;
+}
+        .head {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgb(146, 67, 168);
+            padding: 2rem 9%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .fa-heart {
+            color: red;
+        }
+        
+        .head .logo {
+            font-size: 2.5rem;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: .1rem;
+        }
+        
+        span {
+            color: lightgray;
+            font-size: 2.5rem;
+        }
+        
+        .head .navbar {
+            font-size: 1.8rem;
+            justify-content: space-between;
+            font-weight: 500;
+        }
+        
+        .head .navbar a {
+            padding-left: 1.5rem;
+            color: #fff;
+        }
+        
+        #menu-bar {
+            display: none;
+            color: #fff;
+        }
+        /*----------------------Home-------------*/
+        
+        .home {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            position: relative;
+        }
+        
+        .search-box h1 {
+             font-size: 5.5rem;
+             text-transform: capitalize;
+             font-weight: 600;
+             letter-spacing: .2rem;
+             text-align: center;
+             color: white
+             ;
+        }
+        .search-box h2 {
+            font-size: 1.8rem;
+            margin: .5rem 0;
+            text-align: center;
+            position: absolute;
+            top: 200px ;
+            left: 560px;
+            font-size: 4.5rem;
+        } 
+    </style>
+</head>
+<body>
+    <header class="head">
+        <a href="#" class="logo">Events</a>
+        <nav class="navbar ">
+            <a href="#" class="active">Home</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <!-----------------home----------------->
+    <section class="home" id="home">
+        <form action="#">
+        <div class="search-box">
+        <h1>Hai, I'm Priyadharsini</h1>
+            <h2>Welcome to my page</h2>
+        </div>
+     
+        </form>
+    </section>
+    
+</body>
+</html>
